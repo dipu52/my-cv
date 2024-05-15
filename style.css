@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1000px;
+    background-color: #E4f9f5;
+    margin: auto;
+    padding: 20px;
+}
+.profile-image{
+    height: 120px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 5px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.align-all{
+    text-align: justify;
+}
+
+/*--------------------
+personal section start
+----------------------*/
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-hand-side{
+    width: 30%;
+    float: left;
+}
+.right-hand-side{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*--------------------
+education section start
+----------------------*/
+.education-template-left{
+    width: 45%;
+    float: left;
+}
+.education-template-left a{
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.education-template-left a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.education-template-right{
+    width: 45%;
+    float: right;
+}
+.education-template-right a{
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.education-template-right a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+/*--------------------
+footer section start
+----------------------*/
+.bottom-container{
+    background-color: black;
+    font-weight: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
